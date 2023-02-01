@@ -21,7 +21,7 @@ pipeline{
 
 			steps {
 				echo 'Build Process started'
-				sh 'docker build -t raziashaik1984/nodeapp_test:latest .'
+				sh 'docker build -t raziashaik1984/nodeapp_test:latest C:\ProgramData\Jenkins\.jenkins\workspace\node.js'
 				echo 'Build Process end'
 			}
 		}
